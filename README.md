@@ -241,7 +241,7 @@ An average order value of £523.31 across 5,878 unique customers is far above ty
 Data science student — Applied Data Science Lab (ALX × ExploreAI × Mastercard Foundation) — building toward a data professional career.
 
 - 🔗 [LinkedIn URL](https://www.linkedin.com/in/peter-karanja-n/)
-- 💼 [GitHub](https://github.com/KaranjaP) &nbsp;·&nbsp; [Portfolio URL]
+- 💼 [GitHub](https://github.com/KaranjaP) &nbsp;·&nbsp; [Portfolio URL](https://karanjap.github.io/)
 
 ---
 
