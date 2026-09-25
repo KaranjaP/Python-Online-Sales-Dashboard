@@ -1,6 +1,7 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import pathlib as Path
 
 
 # --------------------------------------------------
@@ -17,7 +18,8 @@ st.set_page_config(
 # --------------------------------------------------
 @st.cache_data
 def load_data():
-    file_path = "D:/Git&Github_Folder/Python Project/online_retail_II.xlsx"
+    base_dir = Path(__file__).resolve().parent.parent
+    file_path = base_dir / "data" / "online_retail_II.xlsx"
 
     sheet1 = pd.read_excel(
         file_path,
