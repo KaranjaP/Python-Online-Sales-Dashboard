@@ -19,7 +19,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     base_dir = Path(__file__).resolve().parent.parent
-    file_path = base_dir / "data" / "online_retail_II.csv"
+    file_path = base_dir / "data" / "online_retail_II.xlsx"
 
     sheet1 = pd.read_excel(
         file_path,
