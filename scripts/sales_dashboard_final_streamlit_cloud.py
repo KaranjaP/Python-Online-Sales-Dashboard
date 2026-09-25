@@ -63,7 +63,7 @@ def load_data():
 
     return df_clean
 
-df_clean = load_data(DATA_FILE)
+df_clean = load_data()
 
 # --------------------------------------------------
 # Dashboard title
