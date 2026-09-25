@@ -5,7 +5,6 @@
 *.parquet
 *.json
 *.xml
-data/raw/*
 data/processed/*
 data/external/*
 !data/raw/README.md

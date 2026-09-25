@@ -6,7 +6,7 @@ from pathlib import Path
 # Project root = Python-Online-Sales-Dashboard/
 # The Excel file is stored in project_root/data/online_retail_II.xlsx
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_FILE = BASE_DIR / "data" / "raw" / "online_retail_II.xlsx"
+DATA_FILE = BASE_DIR / "data" / "online_retail_II.xlsx"
 
 
 # --------------------------------------------------
