@@ -3,6 +3,11 @@ import plotly.express as px
 import streamlit as st
 from pathlib import Path
 
+# Project root = Python-Online-Sales-Dashboard/
+# The Excel file is stored in project_root/data/online_retail_II.xlsx
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_FILE = BASE_DIR / "data" / "raw" / "online_retail_II.xlsx"
+
 
 # --------------------------------------------------
 # Page configuration
@@ -18,16 +23,20 @@ st.set_page_config(
 # --------------------------------------------------
 @st.cache_data
 def load_data():
-    base_dir = Path(__file__).resolve().parent.parent
-    file_path = base_dir / "data" / "online_retail_II.xlsx"
+
+    if not DATA_FILE.exists():
+        st.error(
+            f"Data file not found: {DATA_FILE}"
+        )
+        st.stop()
 
     sheet1 = pd.read_excel(
-        file_path,
+        DATA_FILE,
         sheet_name="Year 2009-2010"
     )
 
     sheet2 = pd.read_excel(
-        file_path,
+        DATA_FILE,
         sheet_name="Year 2010-2011"
     )
 
@@ -44,21 +53,17 @@ def load_data():
         (df["Quantity"] > 0)
     ].copy()
 
-    # Calculate revenue
     df_clean["Revenue"] = (
         df_clean["Quantity"] * df_clean["Price"]
     )
 
-    # Make sure InvoiceDate is a datetime
     df_clean["InvoiceDate"] = pd.to_datetime(
         df_clean["InvoiceDate"]
     )
 
     return df_clean
 
-
-df_clean = load_data()
-
+df_clean = load_data(DATA_FILE)
 
 # --------------------------------------------------
 # Dashboard title
