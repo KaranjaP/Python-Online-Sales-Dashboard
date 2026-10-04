@@ -14,6 +14,7 @@ data/external/*
 # Allow the Excel file required by the Streamlit dashboard
 !data/online_retail_II.xlsx
 
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
