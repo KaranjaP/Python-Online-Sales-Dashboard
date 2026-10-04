@@ -2,7 +2,7 @@
 
 > An interactive Streamlit dashboard turning ~1.07M raw UK retail transactions into executive-level revenue KPIs, seasonal trends, and evidence-based business recommendations.
 
-**Live Demo:** [link — update once deployed to Streamlit Community Cloud] &nbsp;·&nbsp; **Screenshot below**
+**Live Demo:** [https://karanjap-py-scriptssales-dashboard-final-streamlit-cloud-chsbcm.streamlit.app/] &nbsp;·&nbsp; **Screenshot below**
 
 ![Dashboard Screenshot](visuals/dashboard.png)
 
