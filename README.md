@@ -91,8 +91,6 @@ Python-Online-Sales-Dashboard/
 └── README.md                  # You are here
 ```
 
-> `reports/` and `queries/` are template folders retained for consistency but not used in this project — everything here is Python/Pandas-driven with no SQL layer or slide-deck deliverable.
-
 ---
 
 ## 5. Data Workflow
