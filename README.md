@@ -45,7 +45,6 @@
 - **Secondary Objective 2:** Quantify seasonal revenue patterns to inform inventory and marketing planning.
 - **Secondary Objective 3:** Package the analysis into an interactive, filterable Streamlit dashboard usable by a non-technical stakeholder.
 
-> 💡 _Every analysis decision in this project traces back to one of these objectives._
 
 ---
 
