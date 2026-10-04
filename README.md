@@ -209,8 +209,6 @@ An average order value of £523.31 across 5,878 unique customers is far above ty
 - The dataset doesn't distinguish customer-initiated cancellations from business-initiated ones (e.g., stock recalls), so the leakage attributable to genuinely fixable operational issues (Insight 4) may be smaller than the raw cancellation count suggests.
 - No demographic or marketing-spend data was available to explain _why_ the UK market so heavily dominates.
 
-> _The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask._
-
 ---
 
 ## 11. Future Enhancements
